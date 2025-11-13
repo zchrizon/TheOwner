@@ -26,20 +26,6 @@
 <main>
   <section id="view-home" class="view visible">
     <h1>Verify Item Ownership</h1>
-    <div id="homeMarquee" class="marquee card">
-      <div class="track">
-        <span class="mq-item mq-link" data-action="focus" data-target="searchSerial">Search by VIN, IMEI, Serial</span>
-        <span class="mq-item mq-link" data-action="view" data-view="register">Register Items</span>
-        <span class="mq-item">Prevent Fraud</span>
-        <span class="mq-item mq-link" data-action="view" data-view="about">Join The-Owner Community</span>
-        <span class="mq-item">Verify Ownership</span>
-        <span class="mq-item mq-link" data-action="focus" data-target="searchSerial">Search by VIN, IMEI, Serial</span>
-        <span class="mq-item mq-link" data-action="view" data-view="register">Register Items</span>
-        <span class="mq-item">Prevent Fraud</span>
-        <span class="mq-item mq-link" data-action="view" data-view="about">Join The-Owner Community</span>
-        <span class="mq-item">Verify Ownership</span>
-      </div>
-    </div>
     <p>Choose item type and enter the identifier to view ownership details.</p>
     <form id="searchForm" class="card">
       <label for="searchType">Item Type</label>
@@ -53,56 +39,32 @@
       <button type="submit">Search</button>
     </form>
     <div id="searchResult" class="card"></div>
-    <article class="card">
-      <h3>Importance</h3>
-      <p>The-Owner helps individuals prove and verify ownership of valuable items such as cars and phones. Registered records make it easier to confirm legitimacy, support recovery of lost or stolen property, and deter fraudulent resale.</p>
-      <h3>Safety Tips</h3>
-      <ul>
-        <li>Register items as soon as you acquire them and keep details up to date.</li>
-        <li>Mark items as stolen immediately if you lose possession and report to authorities.</li>
-        <li>Never share your password. Use a strong, unique password for your account.</li>
-        <li>Verify serial identifiers physically on the item before purchasing second-hand.</li>
-        <li>Use search to confirm ownership before completing a transaction.</li>
-      </ul>
-      <h3>Advantages</h3>
-      <ul>
-        <li>Quick verification by serial number to reduce fraud risk.</li>
-        <li>Owner contact details visible so finders or buyers can reach the legitimate owner.</li>
-        <li>Simple status flag to identify stolen items.</li>
-        <li>Mobile-friendly interface usable anywhere.</li>
-        <li>Free, easy registration for multiple item types.</li>
-      </ul>
-    </article>
-    <article class="card">
-      <h3>The-Owner Application: Empowering Item Ownership and Security</h3>
-      <p>The-Owner Application is a revolutionary platform designed to help individuals register and verify ownership of valuable items, such as cars, phones, and more. By using our app, users can ensure the legitimacy of an item and protect themselves from potential theft or fraud.</p>
-
-      <h3>Importance of Using The-Owner Application</h3>
-      <p>The-Owner Application provides a secure and decentralized way to manage item ownership, reducing the risk of theft and increasing trust among buyers and sellers. By registering your items, you can:</p>
-      <ul>
-        <li>Prove ownership and authenticity</li>
-        <li>Recover stolen items</li>
-        <li>Make informed purchasing decisions</li>
-      </ul>
-
-      <h3>Safety Tips</h3>
-      <ul>
-        <li>Register your items with accurate and up-to-date information</li>
-        <li>Use strong passwords and enable two-factor authentication</li>
-        <li>Be cautious when sharing your item details with others</li>
-        <li>Verify the identity of buyers and sellers before making transactions</li>
-      </ul>
-
-      <h3>Advantages of Using The-Owner Application</h3>
-      <ul>
-        <li>Convenience : Register and manage your items from anywhere</li>
-        <li>Security : Protect your valuable possessions with our secure platform</li>
-        <li>Transparency : Verify item ownership and history</li>
-        <li>Community : Join a network of trusted users and promote a culture of honesty</li>
-      </ul>
-
-      <p>By using The-Owner Application, you can take control of your item ownership and security. Join our community today and experience the benefits of a secure and decentralized item registration platform.</p>
-    </article>
+    <div id="homeBlocks" class="blocks">
+      <div class="block-card" data-action="focus" data-target="searchSerial">
+        <h3>Verify Ownership</h3>
+        <p>Search by VIN, IMEI, or Serial to confirm legitimacy.</p>
+      </div>
+      <div class="block-card" data-action="view" data-view="register">
+        <h3>Register Items</h3>
+        <p>Add your car, phone, or other items securely.</p>
+      </div>
+      <div class="block-card" data-action="view" data-view="about">
+        <h3>Importance</h3>
+        <p>Why registering items reduces fraud and aids recovery.</p>
+      </div>
+      <div class="block-card" data-action="view" data-view="about">
+        <h3>Safety Tips</h3>
+        <p>Best practices to keep your records safe and useful.</p>
+      </div>
+      <div class="block-card" data-action="view" data-view="about">
+        <h3>Advantages</h3>
+        <p>Convenience, security, transparency, and community benefits.</p>
+      </div>
+      <div class="block-card" data-action="view" data-view="about">
+        <h3>About Us</h3>
+        <p>Our mission to build a trustworthy ownership network.</p>
+      </div>
+    </div>
   </section>
 
   <section id="view-register" class="view">
